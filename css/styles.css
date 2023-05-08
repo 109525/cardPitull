@@ -1,0 +1,23 @@
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tarjeta img{
+    width: 100%;
+}
+.tarjeta p:nth-child(3){
+    color: brown;
+}
+
+.tarjeta p{
+    text-align: center;
+    color: black;
+}
+.tarjeta{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(34, 32, 32, 0.39);
+    border-radius: 20%;
+    overflow: hidden;
+}
